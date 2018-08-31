@@ -32,7 +32,7 @@ public class DefaultRibbonConfig {
                 System.out.println("clientName:" + clientName);
                 System.out.println("enter update");
                 //do your db fetch operation
-                return new ArrayList<Server>(){{add(new Server("www.163.com", 80));}};
+                return new ArrayList<Server>(){{add(new Server("www.163.com", 80));add(new Server("www.baidu.com", 80));}};
             }
         };
     }

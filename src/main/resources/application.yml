@@ -1,3 +1,14 @@
 zuul:
   routes:
     open-api: /open-api/**
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
+
+management:
+  security:
+    enabled: false
